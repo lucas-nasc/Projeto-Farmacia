@@ -120,8 +120,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>farmacia.farmacia.FarmaciaApplication</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
+
 	</build>
 
 </project>
